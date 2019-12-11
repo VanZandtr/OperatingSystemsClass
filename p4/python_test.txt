@@ -1,0 +1,145 @@
+./obj64/server.exe -p 9999 -k rsa -f company.dir -t 4 -b 1024 -i 6 -u 8192 -d 8192 -r 24 -o 4 -a  
+Starting server. Expect: 'File not found: company.dir'                          [[32mOK[0m]
+-------------------------------------------------------------------------------
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C REG 
+Registering new user alice. Expect: 'OK'                                        [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u bob -w bob_is_awesome -C REG 
+Registering new user bob. Expect: 'OK'                                          [[32mOK[0m]
+-------------------------------------------------------------------------------
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVI -1 k1 -2 t1k 
+Setting key k1 to 1K file. Expect: 'OK'                                         [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVI -1 k2 -2 t1k 
+Setting key k2 to 1K file. Expect: 'OK'                                         [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVU -1 k2 -2 t1k 
+Updating key k2 to 1K file. Expect: 'OKUPD'                                     [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVU -1 k3 -2 t1k 
+Upserting key k3 to 1K file. Expect: 'OKINS'                                    [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVI -1 k4 -2 t1k 
+Setting key k4 to 1K file. Expect: 'OK'                                         [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVI -1 k5 -2 t1k 
+Setting key k5 to 1K file. Expect: 'OK'                                         [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVI -1 k6 -2 t1k 
+Setting key k6 to 1K file. Expect: 'OK'                                         [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVI -1 k7 -2 t1k 
+Setting key k7 to 1K file. Expect: 'OK'                                         [[32mOK[0m]
+-------------------------------------------------------------------------------
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVI -1 k8 -2 t1k 
+Setting key k8 to 1K file. Expect: 'ERR_QUOTA_UP'                               [[31mERR[0m] 'OK '
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVU -1 k9 -2 t1k 
+Updating key k9 to 1K file. Expect: 'ERR_QUOTA_UP'                              [[31mERR[0m] 'OKINS '
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVU -1 k7 -2 t1k 
+Upserting key k7 to 1K file. Expect: 'ERR_QUOTA_UP'                             [[31mERR[0m] 'OKUPD '
+-------------------------------------------------------------------------------
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u bob -w bob_is_awesome -C KVU -1 k7 -2 t1k 
+Upserting key k7 to 1K file. Expect: 'OKUPD'                                    [[32mOK[0m]
+-------------------------------------------------------------------------------
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVG -1 k1 
+Getting key k1. Expect: 'OK'                                                    [[32mOK[0m]
+Comparing t1k and k1.file.dat.                                                  [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVA -1 allkeys 
+Getting all keys. Expect: 'OK'                                                  [[32mOK[0m]
+Checking allkeys.                                                               [[31mERR[0m] Files do not have correct contents
+file:
+k1
+k2
+k3
+k4
+k5
+k6
+k7
+k8
+k9
+list:
+k1
+k2
+k3
+k4
+k5
+k6
+k7
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVG -1 k2 
+Getting key k2. Expect: 'OK'                                                    [[32mOK[0m]
+Comparing t1k and k2.file.dat.                                                  [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVG -1 k3 
+Getting key k3. Expect: 'OK'                                                    [[32mOK[0m]
+Comparing t1k and k3.file.dat.                                                  [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVG -1 k4 
+Getting key k4. Expect: 'OK'                                                    [[32mOK[0m]
+Comparing t1k and k4.file.dat.                                                  [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVG -1 k5 
+Getting key k5. Expect: 'OK'                                                    [[32mOK[0m]
+Comparing t1k and k5.file.dat.                                                  [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVG -1 k6 
+Getting key k6. Expect: 'OK'                                                    [[32mOK[0m]
+Comparing t1k and k6.file.dat.                                                  [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVG -1 k7 
+Getting key k7. Expect: 'OK'                                                    [[32mOK[0m]
+Comparing t1k and k7.file.dat.                                                  [[32mOK[0m]
+-------------------------------------------------------------------------------
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVG -1 k1 
+Getting key k1. Expect: 'ERR_QUOTA_DOWN'                                        [[31mERR[0m] 'OK '
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVA -1 allkeys 
+Getting all keys. Expect: 'OK'                                                  [[32mOK[0m]
+Checking allkeys.                                                               [[31mERR[0m] Files do not have correct contents
+file:
+k1
+k2
+k3
+k4
+k5
+k6
+k7
+k8
+k9
+list:
+k1
+k2
+k3
+k4
+k5
+k6
+k7
+-------------------------------------------------------------------------------
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u bob -w bob_is_awesome -C KVG -1 k7 
+Getting key k7. Expect: 'OK'                                                    [[32mOK[0m]
+Comparing t1k and k7.file.dat.                                                  [[32mOK[0m]
+-------------------------------------------------------------------------------
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVD -1 k6 
+Deleting key k6. Expect: 'OK'                                                   [[32mOK[0m]
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVA -1 allkeys 
+Getting all keys. Expect: 'OK'                                                  [[32mOK[0m]
+Checking allkeys.                                                               [[31mERR[0m] Files do not have correct contents
+file:
+k1
+k2
+k3
+k4
+k5
+k7
+k8
+k9
+list:
+k1
+k2
+k3
+k4
+k5
+k7
+-------------------------------------------------------------------------------
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVT -1 topkeys 
+Getting top keys Expect: 'OK'                                                   [[32mOK[0m]
+Checking topkeys.                                                               [[31mERR[0m] Files do not have correct contents
+file:
+k6
+k7
+k1
+k5
+list:
+k7
+k5
+k4
+-------------------------------------------------------------------------------
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVI -1 k10 -2 t1k 
+Setting key k10 to 1K file. Expect: 'ERR_QUOTA_REQ'                             [[31mERR[0m] 'OK '
+solutions/client.exe -k localhost.pub -s localhost -p 9999 -u alice -w alice_is_awesome -C KVU -1 k2 -2 t1k 
+Upserting key k2 to 1K file. Expect: 'ERR_QUOTA_REQ'                            

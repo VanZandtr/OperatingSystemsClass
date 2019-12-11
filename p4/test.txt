@@ -1,0 +1,952 @@
+Listening on port 9999 using (key/data) = (rsa, company.dir)
+Generating RSA keys as (rsa.pub, rsa.pri)
+Waiting for a client to connect...
+Connected to 127.0.0.1
+Waiting for a client to connect...
+Connected to 127.0.0.1
+Waiting for a client to connect...
+Connected to 127.0.0.1
+Waiting for a client to connect...
+Connected to 127.0.0.1
+Waiting for a client to connect...
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts + amount: 2
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts + amount: 2048
+fields->amount < ta + a?: 0
+
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts + amount: 3
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1024
+total amounts + amount: 3072
+fields->amount < ta + a?: 0
+
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts + amount: 4
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 2048
+total amounts + amount: 4096
+fields->amount < ta + a?: 0
+
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts + amount: 5
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 2048
+total amounts1: 3072
+total amounts + amount: 5120
+fields->amount < ta + a?: 0
+
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts + amount: 6
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 2048
+total amounts1: 3072
+total amounts1: 4096
+total amounts + amount: 6144
+fields->amount < ta + a?: 0
+
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts + amount: 7
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 2048
+total amounts1: 3072
+total amounts1: 4096
+total amounts1: 5120
+total amounts + amount: 7168
+fields->amount < ta + a?: 0
+
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts + amount: 8
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 2048
+total amounts1: 3072
+total amounts1: 4096
+total amounts1: 5120
+total amounts1: 6144
+total amounts + amount: 8192
+fields->amount < ta + a?: 0
+
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts + amount: 9
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 2048
+total amounts1: 3072
+total amounts1: 4096
+total amounts1: 5120
+total amounts1: 6144
+total amounts1: 7168
+total amounts + amount: 9216
+fields->amount < ta + a?: 1
+
+fields->amount: 8192
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts + amount: 10
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 2048
+total amounts1: 3072
+total amounts1: 4096
+total amounts1: 5120
+total amounts1: 6144
+total amounts1: 7168
+total amounts + amount: 9216
+fields->amount < ta + a?: 1
+
+fields->amount: 8192
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts + amount: 11
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 2048
+total amounts1: 3072
+total amounts1: 4096
+total amounts1: 5120
+total amounts1: 6144
+total amounts1: 7168
+total amounts + amount: 9216
+fields->amount < ta + a?: 1
+
+fields->amount: 8192
+Connected to 127.0.0.1
+Waiting for a client to connect...
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts + amount: 12
+fields->amount < ta + a?: 0
+
+OK
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts + amount: 13
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092417
+total amounts1: 0
+total amounts + amount: 1045
+fields->amount < ta + a?: 0
+
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts + amount: 14
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092417
+total amounts1: 0
+total amounts1: 1024
+total amounts + amount: 2069
+fields->amount < ta + a?: 0
+
+OK
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts + amount: 15
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092417
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 1045
+total amounts + amount: 3093
+fields->amount < ta + a?: 0
+
+OK
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts + amount: 16
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092417
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 1045
+total amounts1: 2069
+total amounts + amount: 4117
+fields->amount < ta + a?: 0
+
+OK
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts + amount: 17
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092417
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 1045
+total amounts1: 2069
+total amounts1: 3093
+total amounts + amount: 5141
+fields->amount < ta + a?: 0
+
+OK
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts1: 16
+total amounts + amount: 18
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092417
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 1045
+total amounts1: 2069
+total amounts1: 3093
+total amounts1: 4117
+total amounts + amount: 6165
+fields->amount < ta + a?: 0
+
+OK
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts1: 16
+total amounts1: 17
+total amounts + amount: 19
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092417
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 1045
+total amounts1: 2069
+total amounts1: 3093
+total amounts1: 4117
+total amounts1: 5141
+total amounts + amount: 7189
+fields->amount < ta + a?: 0
+
+OK
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts1: 16
+total amounts1: 17
+total amounts1: 18
+total amounts + amount: 20
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092417
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 1045
+total amounts1: 2069
+total amounts1: 3093
+total amounts1: 4117
+total amounts1: 5141
+total amounts1: 6165
+total amounts + amount: 8213
+fields->amount < ta + a?: 1
+
+fields->amount: 8192
+returing QUOTA DOWN
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts1: 16
+total amounts1: 17
+total amounts1: 18
+total amounts1: 19
+total amounts + amount: 21
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092417
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 1045
+total amounts1: 2069
+total amounts1: 3093
+total amounts1: 4117
+total amounts1: 5141
+total amounts1: 6165
+total amounts + amount: 7210
+fields->amount < ta + a?: 0
+
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092417
+total amounts1: 0
+total amounts + amount: 2
+fields->amount < ta + a?: 0
+
+OK
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts1: 16
+total amounts1: 17
+total amounts1: 18
+total amounts1: 19
+total amounts1: 20
+total amounts + amount: 22
+fields->amount < ta + a?: 0
+
+REMOVING: k6
+MRU LOOP [0]: k7
+MRU LOOP [1]: k6
+MRU LOOP [2]: k5
+MRU LOOP [3]: k4
+MRU LOOP [0]: k7
+MRU LOOP [1]: k5
+MRU LOOP [2]: k4
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts1: 16
+total amounts1: 17
+total amounts1: 18
+total amounts1: 19
+total amounts1: 20
+total amounts1: 21
+total amounts + amount: 23
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092417
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 1045
+total amounts1: 2069
+total amounts1: 3093
+total amounts1: 4117
+total amounts1: 5141
+total amounts1: 6165
+total amounts1: 7189
+total amounts + amount: 7228
+fields->amount < ta + a?: 0
+
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts1: 16
+total amounts1: 17
+total amounts1: 18
+total amounts1: 19
+total amounts1: 20
+total amounts1: 21
+total amounts1: 22
+total amounts + amount: 24
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092417
+total amounts1: 0
+total amounts1: 1024
+total amounts1: 1045
+total amounts1: 2069
+total amounts1: 3093
+total amounts1: 4117
+total amounts1: 5141
+total amounts1: 6165
+total amounts1: 7189
+total amounts1: 7210
+total amounts + amount: 7237
+fields->amount < ta + a?: 0
+
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts1: 16
+total amounts1: 17
+total amounts1: 18
+total amounts1: 19
+total amounts1: 20
+total amounts1: 21
+total amounts1: 22
+total amounts1: 23
+total amounts + amount: 25
+fields->amount < ta + a?: 1
+
+fields->amount: 24
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts1: 16
+total amounts1: 17
+total amounts1: 18
+total amounts1: 19
+total amounts1: 20
+total amounts1: 21
+total amounts1: 22
+total amounts1: 23
+total amounts + amount: 25
+fields->amount < ta + a?: 1
+
+fields->amount: 24
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts1: 16
+total amounts1: 17
+total amounts1: 18
+total amounts1: 19
+total amounts1: 20
+total amounts1: 21
+total amounts1: 22
+total amounts1: 23
+total amounts + amount: 25
+fields->amount < ta + a?: 1
+
+fields->amount: 24
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts1: 16
+total amounts1: 17
+total amounts1: 18
+total amounts1: 19
+total amounts1: 20
+total amounts1: 21
+total amounts1: 22
+total amounts1: 23
+total amounts + amount: 25
+fields->amount < ta + a?: 1
+
+fields->amount: 24
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts1: 16
+total amounts1: 17
+total amounts1: 18
+total amounts1: 19
+total amounts1: 20
+total amounts1: 21
+total amounts1: 22
+total amounts1: 23
+total amounts + amount: 25
+fields->amount < ta + a?: 1
+
+fields->amount: 24
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts1: 16
+total amounts1: 17
+total amounts1: 18
+total amounts1: 19
+total amounts1: 20
+total amounts1: 21
+total amounts1: 22
+total amounts1: 23
+total amounts + amount: 25
+fields->amount < ta + a?: 1
+
+fields->amount: 24
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+total amounts1: 0
+total amounts1: 1
+total amounts1: 2
+total amounts1: 3
+total amounts1: 4
+total amounts1: 5
+total amounts1: 6
+total amounts1: 7
+total amounts1: 8
+total amounts1: 9
+total amounts1: 10
+total amounts1: 11
+total amounts1: 12
+total amounts1: 13
+total amounts1: 14
+total amounts1: 15
+total amounts1: 16
+total amounts1: 17
+total amounts1: 18
+total amounts1: 19
+total amounts1: 20
+total amounts1: 21
+total amounts1: 22
+total amounts1: 23
+total amounts + amount: 25
+fields->amount < ta + a?: 1
+
+fields->amount: 24
+Connected to 127.0.0.1
+Waiting for a client to connect...
+TESTING front.when: 1574092416
+front before: 24
+front after: 23
+front before: 23
+front after: 22
+front before: 22
+front after: 21
+front before: 21
+front after: 20
+front before: 20
+front after: 19
+front before: 19
+front after: 18
+front before: 18
+front after: 17
+front before: 17
+front after: 16
+front before: 16
+front after: 15
+front before: 15
+front after: 14
+front before: 14
+front after: 13
+front before: 13
+front after: 12
+front before: 12
+front after: 11
+front before: 11
+front after: 10
+front before: 10
+front after: 9
+front before: 9
+front after: 8
+front before: 8
+front after: 7
+front before: 7
+front after: 6
+front before: 6
+front after: 5
+front before: 5
+front after: 4
+front before: 4
+front after: 3
+front before: 3
+front after: 2
+front before: 2
+front after: 1
+front before: 1
+front after: 0
+total amounts + amount: 1
+fields->amount < ta + a?: 0
+
+TESTING front.when: 1574092417
+front before: 11
+front after: 10
+front before: 10
+front after: 9
+front before: 9
+front after: 8
+front before: 8
+front after: 7
+front before: 7
+front after: 6
+front before: 6
+front after: 5
+front before: 5
+front after: 4
+front before: 4
+front after: 3
+front before: 3
+front after: 2
+front before: 2
+front after: 1
+front before: 1
+front after: 0
+total amounts + amount: 1024
+fields->amount < ta + a?: 0
+
+OK
