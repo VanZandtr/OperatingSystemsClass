@@ -6,7 +6,7 @@ Hey Jake! Thanks again for the call today! I uploaded some of the OS code we tal
 ## Instructions
 * Each program (P1 - P5) instruction's are located in /instructions/
 
-##NOTES
+## NOTES
 *P5 is still in dev. should be done by sunday.
 
 
