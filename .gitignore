@@ -1,0 +1,10 @@
+**/*.pyc
+**/.bash_history
+**/.DS_Store
+**/.vscode
+**/__pycache__
+**/obj64
+*.pyc
+.vscode
+__pycache__
+obj64
